@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ancis Ras Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+        }
+        header {
+            background-color: #00ced1;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #00ced1;
+            padding: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #40da08;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+        }
+        .profile-pic {
+            float: right;
+            margin-left: 20px;
+        }
+        .about-me {
+            margin-top: 20px;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        .about-me td, .about-me th {
+            border: 1px solid #6add0c;
+            padding: 8px;
+        }
+        .about-me th {
+            background-color: #f2f2f2;
+            text-align: left;
+        }
+        .about-me tr:hover {
+            background-color: #34cc06;
+        }
+        .highlight {
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ancis Ras</h1>
+    </header>
+    <nav>
+        <a href="#">Profile</a>
+        <a href="#">Achievement</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <h2>Hello</h2>
+        <p>Ancis Ras</p>
+        <p>From PGRI Kanjuruhan Malang University</p>
+        <img src="download.jpeg" alt="Profile Picture" class="profile-pic">
+        <table class="about-me">
+            <tr>
+                <th>Nama Lengkap <br> <span class="highlight">Full Name</span></th>
+                <td>Ancis Ras</td>
+            </tr>
+            <tr>
+                <th>Tanggal Lahir <br> <span class="highlight">Date Of Birth</span></th>
+                <td>21 Desember 2002</td>
+            </tr>
+            <tr>
+                <th>Tempat Tinggal <br> <span class="highlight">Residence</span></th>
+                <td>Kabupaten Manggarai Timur</td>
+            </tr>
+            <tr>
+                <th>Agama <br> <span class="highlight">Religion</span></th>
+                <td>Katolik</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
